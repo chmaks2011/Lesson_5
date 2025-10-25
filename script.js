@@ -4,7 +4,7 @@ function updateClock (time) {
     const minutes = String(now.getUTCMinutes()).padStart(2, '0');
     const seconds = String(now.getUTCSeconds()).padStart(2, '0');
 
-    document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+    // document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
 
     //console.log(`${hours}:${minutes}:${seconds}`);
 
